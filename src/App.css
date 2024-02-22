@@ -6,11 +6,12 @@
   display: flex;
   justify-content: center;
   margin-top: 150px;
-  background-color: pink;
+  background-color: rgb(54, 49, 49);
   height: 400px;
   width: 300px;
   margin-left: 450px;
   border-radius: 20px;
+  padding: 15px;
 }
 
 .display{
@@ -23,7 +24,7 @@
     height: 40px;
     border-radius: 50px;
     background-color: black;
-    color: pink;
+    color: white;
     font-size: 18px;
   }
 }
@@ -32,24 +33,24 @@
   height: 50px;
   width: 50px;
   border-radius: 9999px;
-  background-color: rgb(204, 44, 44);
+  background-color: rgb(36, 34, 34);
   font-size: 15px;
   font-weight: bold;
-  color:pink;
+  color:rgb(204, 44, 44);
   cursor: pointer;
   transition: 0.5s;
   
 }
 
 .function:hover{
-  background-color: red;
+  background-color: rgb(53, 48, 48);
 }
 
 .number{
   height: 50px;
   width: 50px;
   border-radius: 9999px;
-  background-color: black;
+  background-color: rgb(36, 34, 34);
   color: white;
   font-size: 15px;
   font-weight: bold;
@@ -58,7 +59,7 @@
 }
 
 .number:hover{
-  background-color: rgb(41, 39, 39);
+  background-color: rgb(53, 48, 48);
 
 }
 
@@ -66,8 +67,8 @@
   height: 50px;
   width: 50px;
   border-radius: 9999px;
-  background-color: white;
-  color: black;
+  background-color: rgb(36, 34, 34);
+  color: green;
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
@@ -75,14 +76,15 @@
 }
 
 .calculation:hover{
-  background-color: pink;
+  background-color:rgb(53, 48, 48) ;
 }
 
 .equal{
   height: 50px;
   width: 100px;
   border-radius: 50px;
-  background-color: palevioletred;
+  background-color: green;
+  color: white;
   font-size: 15px;
   font-weight: bolder;
   cursor: pointer;
@@ -90,7 +92,7 @@
 }
 
 .equal:hover{
-  background-color: white;
+  background-color: rgb(17, 156, 17);
 }
 
 .buttons{
