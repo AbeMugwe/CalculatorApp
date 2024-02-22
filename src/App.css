@@ -1,0 +1,102 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  background-color: pink;
+  height: 400px;
+  width: 300px;
+  margin-left: 450px;
+  border-radius: 20px;
+}
+
+.display{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  
+
+  >input{
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: pink;
+    font-size: 18px;
+  }
+}
+
+.function{
+  height: 50px;
+  width: 50px;
+  border-radius: 9999px;
+  background-color: rgb(204, 44, 44);
+  font-size: 15px;
+  font-weight: bold;
+  color:pink;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+
+.function:hover{
+  background-color: red;
+}
+
+.number{
+  height: 50px;
+  width: 50px;
+  border-radius: 9999px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.number:hover{
+  background-color: rgb(41, 39, 39);
+
+}
+
+.calculation{
+  height: 50px;
+  width: 50px;
+  border-radius: 9999px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.calculation:hover{
+  background-color: pink;
+}
+
+.equal{
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: palevioletred;
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.equal:hover{
+  background-color: white;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
